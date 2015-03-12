@@ -1,0 +1,8 @@
+; NRXTANSA.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NRXTANSA"
+DESCRIPTION  'NRXTANSA Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+		MainExtProc	@1

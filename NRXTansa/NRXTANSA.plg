@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NRXTANSA - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Release/NRXTANSA.res" /d "NDEBUG" /d "_AFXDLL" "C:\NRXTANSA\NRXTANSA.rc"" 
+Creating temporary file "C:\DOCUME~1\Atex\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/NRXTANSA.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\NRXTANSA\NRXTANSA.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Atex\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "C:\DOCUME~1\Atex\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/NRXTANSA.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\NRXTANSA\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Atex\LOCALS~1\Temp\RSP3.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NRXTANSA.pdb" /machine:I386 /def:".\NRXTANSA.def" /out:"Release/NRXTANSA.dll" /implib:"Release/NRXTANSA.lib"  .\Release\NRXTANSA.obj .\Release\StdAfx.obj .\Release\NRXTANSA.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NRXTANSA.cpp
+Linking...
+   Creating library Release/NRXTANSA.lib and object Release/NRXTANSA.exp
+Creating command line "bscmake.exe /nologo /o"Release/NRXTANSA.bsc"  .\Release\StdAfx.sbr .\Release\NRXTANSA.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NRXTANSA.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

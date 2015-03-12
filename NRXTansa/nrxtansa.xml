@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--  NRX Tansa Plugin Configuration File
+ Revision History
+	20070410: initial configuration
+-->
+
+<NRXTansa>
+	<!-- PluginBin: complete path of the Newsroom-Tansa plugin -->
+	<PluginBin>"C:\Program Files\Tansa System 3\Client\Extensions\Newsroom\newsroomtansaplugin.exe"</PluginBin>
+</NRXTansa>
